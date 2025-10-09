@@ -1,0 +1,19 @@
+# Archivos y carpetas que no deben subirse a GitHub
+
+# Carpetas temporales de Visual Studio
+.vs/
+bin/
+obj/
+
+# Archivos de usuario
+*.user
+*.suo
+
+# Configuración local
+*.db
+*.cache
+*.log
+
+# Archivos de publicación
+wwwroot/*.gz
+wwwroot/*.br
